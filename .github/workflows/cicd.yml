@@ -33,7 +33,7 @@ jobs:
 
       - name: Build and analyze in sonar
         env:
-          SONAR_TOKEN: ${{ secrets.sonar_token }}
+          SONAR_TOKEN: ${{ secrets.demo3 }}
           SONAR_HOST_URL: ${{ secrets.sonar_url }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
 
