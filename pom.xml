@@ -17,10 +17,10 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <!-- Tell Maven to treat all source files as UTF-8 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sonar.projectKey>59cbf09c9f837c7b60789ad04692d71f4eea987a</sonar.projectKey>
+<!--         <sonar.projectKey>59cbf09c9f837c7b60789ad04692d71f4eea987a</sonar.projectKey>
         <sonar.organization>vaibhav-kadam-13</sonar.organization>
         <sonar.host.url>https://sonarcloud.io<sonar.host.url>
-                      
+                       -->
 
     </properties>
 
