@@ -24,9 +24,9 @@ jobs:
       - name: Run SonarCloud Analysis
         run: |
           mvn clean verify sonar:sonar \
-            -Dsonar.projectKey=vaibhav-kadam-13 \
-            -Dsonar.organization=$SONAR_ORGANIZATION \
-            -Dsonar.host.url=https://sonarcloud.io \
+            -Dsonar.projectKey=vaibhav-kadam-13 
+            -Dsonar.organization=$SONAR_ORGANIZATION 
+            -Dsonar.host.url=https://sonarcloud.io 
             -Dsonar.login=$SONAR_TOKEN
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
